@@ -1,0 +1,15 @@
+{
+  "name": "MyLS++",
+  "version": "1.0",
+  "description": "Useful tweaks to make MyLearningSpace even better!",
+  "permissions": ["https://mylearningspace.wlu.ca/*"],
+  "content_scripts": [{
+    "matches": ["*://*/d2l/lms/grades/*"],
+    "js": ["Grades.js"]}
+  ],
+  "icons": { "128": "icon.png"},
+  "browser_action": {
+    "default_popup": "popup.html"
+   },
+  "manifest_version": 2
+}
