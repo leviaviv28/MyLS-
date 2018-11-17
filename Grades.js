@@ -1,5 +1,3 @@
-
-
 var overall_grade = 0;
 var avg_mark = 0;
 var total_marks = 0;
